@@ -262,17 +262,68 @@
 
   .My h5{
     margin-top: 8px;
-    font-size: 10px;
+    font-size: 13px;
   }
 
   /* flowers */
   .flowers{
     padding-top: 20px;
     display: flex;
-    gap:40px
+    gap:20px;
+    
+  }
+  .flower1{
+    border:2px solid #fff;
   }
 
-  img{
-    height: 150px;
-    width: 90px;
+   .flower1 img{
+     width: 80px;
+     height: 100px;
   }
+  
+  .flower1 h1{
+    padding-left: 10px;
+  }
+
+  .flower2{
+    background-color:#fff;
+  }
+
+  .flower2 img{
+    width: 80px;
+     height: 100px;
+ }
+ .flower2 h1{
+   padding-left: 10PX;
+
+ }
+
+  .flower3{
+    border:2px solid #fff;
+   
+  }
+
+  .flower3 img{
+    width: 70px;
+    height: 100px;
+ }
+ .flower3 h1{
+    padding-left: 10PX;
+
+
+ }
+  
+  .Likes{
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+
+  }
+  .Likes h1{
+    color: rgb(15, 180, 15);
+    font-size: 20px;
+  }
+  .Likes h2{
+    margin-top: 8px;
+    font-size: 13px;
+  } 
