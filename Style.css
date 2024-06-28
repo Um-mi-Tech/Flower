@@ -12,13 +12,19 @@
 .container{
     max-width: 100%;
     min-height: 100vh;
-    background-color: #ffffff46;
+    background-color: #ffffff77;
+    display: flex;
+    gap: 20px;
 }
+
 .section_1{
     min-height: 100vh;
     max-width: 30%;
-    background-color: azure;
+    background-color:aliceblue;
   
+}
+.Emojis{
+    padding-bottom: 40px;
 }
 .smiley{
     display: flex;
@@ -95,7 +101,7 @@
 
 
 .SET{
-    padding: 5pxpx;
+    padding: 5px;
 }
 
 .SET h1{
@@ -168,4 +174,80 @@
     font-size:  10px;
     font-family: "Roboto", sans-serif;
 }
+.Box{
+   justify-items: center;
+}
 
+.section_11{
+    padding-left: 30px;
+    height: 150px;
+    width: 100px;
+    background-color: rgb(41, 196, 41);
+}
+.section_11 i{
+    border: 10px solid #fff;
+    border-radius: 50%;
+   
+}
+
+.section_11 h1{
+    margin-top: 10px;
+    font-size:10px;
+    padding-left: 5px;
+    margin-right: 20px;
+   
+}
+
+.section_11 p{
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size:0.4rem;
+}
+
+/* Second section */
+.section_2{
+ 
+
+}
+.section_2 h1{
+    font-size: 15px;
+}
+
+.section_2 p{
+    font-size: 10px;
+}
+
+.section-12{
+    margin-top: 30px;
+    background: url(Flower_pic1.jpg);
+    height: 100px;
+    width: 300px;
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.section-12 h3{
+   font-size: 15px;
+   color:  rgb(15, 180, 15);
+}
+.section-12 p{
+   
+   font-size: 12px;
+   color: rgb(15, 180, 15);
+   opacity: 50%;
+}
+.btns{
+    gap:20px;
+    display:flex;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+   
+}
+.btn1{
+  padding-top: 30px;
+}
+.btn2{
+    background: transparent;
+    color: #fff;
+  }
