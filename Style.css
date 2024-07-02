@@ -233,10 +233,10 @@
 
 .paragraph{
     padding-bottom: 50px;
-    padding-right: 40px;
+    padding-right: 30px;
 }
 .paragraph h1{
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .paragraph p{
@@ -265,7 +265,7 @@
     width: 400px;
     padding-left: 10px;line-height: 20px;
     padding-bottom: 30px;
-    line-height: 30px;
+    line-height: 20px;
 }
 
 .section-12 h3{
@@ -277,10 +277,11 @@
    font-size: 15px;
    color: rgb(15, 180, 15);
    opacity: 50%;
+   padding-bottom: 30px;
 }
 
 .buttons{
-    gap: 40px;
+    gap: 80px;
 
 }
 
