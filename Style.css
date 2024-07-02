@@ -221,39 +221,66 @@
 
 /* Second section */
 .section_2{
- line-height: 30px;
+ /* line-height: 30px; */
 
 }
-.section_2 h1{
+
+.Head{
+    display:flex;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.paragraph{
+    padding-bottom: 50px;
+    padding-right: 40px;
+}
+.paragraph h1{
     font-size: 15px;
 }
 
-.section_2 p{
+.paragraph p{
     font-size: 10px;
 }
+
+
+
+.Search input{
+    padding-left: 40px;
+    padding:20px ;
+    height: 40px;
+    border: none;
+    background-color: #e0d5d54b;
+}
+
+.Search input::placeholder{
+    font-size: 18px;
+}
+
 
 .section-12{
     margin-top: 30px;
     background: url(Flower_pictures/Flower_pic1.jpg);
     height: 120px;
-    width: 300px;
+    width: 400px;
     padding-left: 10px;line-height: 20px;
     padding-bottom: 30px;
+    line-height: 30px;
 }
 
 .section-12 h3{
-   font-size: 15px;
+   font-size: 20px;
    color:  rgb(15, 180, 15);
 }
 .section-12 p{
    
-   font-size: 12px;
+   font-size: 15px;
    color: rgb(15, 180, 15);
    opacity: 50%;
 }
 
 .buttons{
-    gap: 20px;
+    gap: 40px;
 
 }
 
@@ -272,7 +299,7 @@
   .My {
     padding-top: 40px;
     display: flex;
-    gap: 210px;
+    gap: 270px;
   }
   .My h4{
     color: rgb(15, 180, 15);
@@ -289,47 +316,57 @@
   .flowers{
     padding-top: 20px;
     display: flex;
-    gap:20px;
+    gap:50px;
     padding-bottom: 40px;
     
   }
   .flower1{
     border:1px solid #fff;
+    height: 150px; 
+    background-color: #e0d5d54b;
   }
 
    .flower1 img{
-     width: 80px;
-     height: 100px;
+     width: 100px;
+     height: 120px;
   }
   
   .flower1 h1{
     padding-left: 10px;
+    font-size: 15px;
   }
 
   .flower2{
     border:1px solid #fff;
+    height: 150px; 
+    background-color: #e0d5d54b;
   }
 
   .flower2 img{
-    width: 80px;
-     height: 100px;
+    width: 100px;
+     height: 120px;
  }
  .flower2 h1{
    padding-left: 10px;
+   font-size: 15px;
 
  }
 
   .flower3{
     border:1px solid #fff;
+    height: 150px; 
+    background-color: #e0d5d54b;
    
   }
 
   .flower3 img{
-    width: 80px;
-    height: 100px;
+    width: 100px;
+    height: 120px;
  }
  .flower3 h1{
-    padding-left: 10PX;
+    padding-left: 10px;
+    font-size: 15px;
+
 
  }
  .Overall{
