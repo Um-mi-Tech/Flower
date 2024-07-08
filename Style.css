@@ -227,20 +227,20 @@
 
 .Head{
     display:flex;
-    gap: 20px;
+    gap: 80px;
     margin-top: 20px;
 }
 
 .paragraph{
     padding-bottom: 50px;
-    padding-right: 30px;
+    padding-right: 80px;
 }
 .paragraph h1{
-    font-size: 13px;
+    font-size: 10px;
 }
 
 .paragraph p{
-    font-size: 10px;
+    font-size: 7px;
 }
 
 
@@ -255,6 +255,19 @@
 
 .Search input::placeholder{
     font-size: 18px;
+}
+
+.icon{
+    display:flex;
+    gap:20px;
+  
+}
+
+.icon i{
+    border: 20px;
+    padding: 15px;
+    height: 50px;
+    background-color: #e0d5d54b;
 }
 
 
