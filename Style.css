@@ -221,18 +221,18 @@
 
 /* Second section */
 .section_2{
- /* line-height: 30px; */
+ line-height: 30px;
 
 }
 
 .Head{
     display:flex;
-    gap: 10px;
+    gap: 30px;
     margin-top: 20px;
 }
 
 .paragraph{
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     padding-right: 80px;
 }
 .paragraph h1{
@@ -265,7 +265,7 @@
     height: 140px;
     width: 400px;
     padding-left: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
  }
 
 .section-12 h3{
@@ -277,7 +277,7 @@
    font-size: 15px;
    color: rgb(15, 180, 15);
    opacity: 50%;
-   padding-bottom: 10px;
+   padding-bottom: 20px;
 }
 
 /* .buttons{
@@ -318,7 +318,7 @@
     padding-top: 20px;
     display: flex;
     gap:50px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     
   }
   .flower1{
@@ -535,17 +535,195 @@
     font-size: 10px ;
  }
 
- /* Section3 */
-
+/* Third Section */
  .icon{
     display:flex;
     gap:20px;
+    margin-top: 20px;
+    margin-left: 200px;
+    padding-bottom: 50px;
   
 }
 
 .icon i{
     border: 20px;
-    padding: 15px;
-    height: 50px;
+    padding: 10px;
+    height: 40px;
     background-color: #e0d5d54b;
+}
+.icon img{
+    border-radius: 20%;
+    border: 20px;
+    height: 40px;
+    width: 35px;
+    background-color: #e0d5d54b;
+}
+
+.Section-31{
+    margin-top: 70px;
+    background-color: rgb(85, 175, 85);   
+    height: 150px;
+    width: 400px;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+.Whole-orders{
+    display: flex;
+    gap: 40px;
+}
+.orderssss{
+    gap: 30px;
+}
+
+
+
+.Section-31 header h1{
+    font-size: 20px;
+}
+/* .Section_orders{
+    display: flex;
+    gap: 20px;
+} */
+.Section_orders h1{
+    font-size: 20px;
+}
+.order1{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.order2{
+    display: inline-block;
+}
+.order h1{
+ font-size: 20px;
+}
+
+.order-img img{
+    height: 100px;
+    width: 50px;
+    background-blend-mode: multiply;
+
+
+}
+.order_logs{
+    padding-top: 20px;
+    line-height: 30px;
+}
+.order_logs h2{
+    font-size:10px;
+}
+
+.order_logs header{
+    display: flex;
+    gap:200px;
+}
+.order_logs header h1{
+    color: rgb(15, 180, 15);
+    font-size: 20px;
+}
+.order_logs p{
+    font-size: 10px;
+}
+
+.order-list01{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 25px;
+}
+.order-list01 img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.order-list1 h1{
+   font-size: 20px;
+   padding-right: 100px;
+}
+.order-list1 p{
+    font-size: 15px;
+}
+
+.order-list02{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 25px;
+
+
+}
+.order-list02 img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.order-list2 h1{
+   font-size: 20px;
+   padding-right: 100px;
+
+}
+.order-list2 p{
+    font-size: 15px;
+}
+
+.order-list03{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 25px;
+
+
+}
+.order-list03 img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.order-list3 h1{
+   font-size: 20px;
+   padding-right: 100px;
+
+}
+.order-list3 p{
+    font-size: 15px;
+}
+.order-list04{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 25px;
+
+
+}
+.order-list04 img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.order-list4 h1{
+   font-size: 20px;
+   padding-right: 100px;
+
+}
+.order-list4 p{
+    font-size: 15px;
+}
+
+.order-list05{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 25px;
+
+
+}
+.order-list05 img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.order-list5 h1{
+   font-size: 20px;
+   padding-right: 100px;
+
+}
+.order-list5 p{
+    font-size: 15px;
 }
