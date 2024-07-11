@@ -232,7 +232,7 @@
 }
 
 .paragraph{
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     padding-right: 80px;
 }
 .paragraph h1{
@@ -265,7 +265,7 @@
     height: 140px;
     width: 400px;
     padding-left: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
  }
 
 .section-12 h3{
@@ -277,7 +277,7 @@
    font-size: 15px;
    color: rgb(15, 180, 15);
    opacity: 50%;
-   padding-bottom: 20px;
+   padding-bottom: 40px;
 }
 
 /* .buttons{
@@ -318,7 +318,7 @@
     padding-top: 20px;
     display: flex;
     gap:50px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     
   }
   .flower1{
