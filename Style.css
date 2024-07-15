@@ -6,21 +6,24 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+  
 
 }
 
 .container{
-    max-width: 100%;
+    min-width: 100%;
     min-height: 100vh;
     display: flex;
-    gap: 20px;
-    background-color: #e0d5d54b;
+
+
+
 }
+  
+ 
 
 .section_1{
     min-height: 100vh;
     width: 30%;
-    background-color: hsl(0, 0%, 96%);
    
    
   
@@ -57,7 +60,7 @@
     line-height: 30px;
 }
 
-  /* Dashboard */
+   /* Dashboard  */
 .D{
     display: flex;
     gap: 0.2rem;
@@ -68,7 +71,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-    /* Order */
+     /* Order  */
 .M{
     display: flex;
     gap: 0.2rem;
@@ -79,7 +82,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-  /* Explore */
+   /* Explore  */
 .E{
     gap: 0.2rem;
 
@@ -91,7 +94,7 @@
     
 }
 
-    /* Featured */
+     /* Featured  */
 .Feat{
     gap: 0.2rem;
     display: flex;
@@ -124,7 +127,7 @@
 .list_2 i{
     line-height: 30px;
 }
-  /*Chart */
+  /* Chart  */
 .CH{
     display: flex;
     gap: 0.2rem;
@@ -135,7 +138,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-    /* TRENDS */
+     /* TRENDS  */
 .Tr{
     display: flex;
     gap: 0.2rem;
@@ -146,7 +149,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-  /* CONTACT */
+   /* CONTACT  */
 .Con{
     gap: 0.2rem;
     display: flex;
@@ -157,7 +160,7 @@
     
 }
 
-    /* SETTINGS */
+     /* SETTINGS  */
 .Se{
     gap: 0.2rem;
     display: flex;
@@ -167,7 +170,7 @@
     font-family: "Roboto", sans-serif;
 }
 
- /* LOG */
+  /* LOG  */
  .Log{
     gap: 0.2rem;
     display: flex;
@@ -221,18 +224,104 @@
 
 }
 
-/* Second section */
-/* .section_2{
- line-height: 30px;
+ /* Second section  */
 
-} */
+.Section_2{
+  background-color: #e0d5d54b; 
 
-.Head{
-    display:flex;
-    gap: 30px;
-    margin-top: 20px;
 }
 
+.Head{
+    display: flex;
+    gap: 20px;
+}
+
+.First_H{
+    padding: 20px;
+}
+
+.First_H h1{
+    font-size: 20px;
+}
+
+.First_H  p{
+    font-size: 12px;
+  
+}
+
+.Second_H {
+    padding: 20px;
+}
+
+.Second_H input{
+    padding:20px ;
+    height: 40px;
+    width: 220px;
+    border: none;
+    background-color: #fff;
+}
+
+.Third_H{
+    justify-content: space-between;
+}
+.Third_H .icon{
+    display: flex;  
+    gap:20px;
+    margin-top: 20px;
+    margin-left: 200px;
+    padding-bottom: 30px;
+
+}
+
+.Third_H .icon i{
+    border: 20px;
+    padding: 12px;
+    height: 40px;
+    background-color: #fff
+}
+
+.Third_H .icon img{
+    border-radius: 20%;
+    border: 20px;
+    height: 40px;
+    width: 35px;
+    background-color:f#fff;
+}
+
+
+/* Second Section Main */
+
+.main{
+
+}
+
+.main .Box{
+    margin-top: 30px;
+    background: url(Flower_pictures/Flower_pic1.jpg);
+    height: 140px;
+    width: 120px; 
+    padding-left: 10px;
+    padding-bottom: 40px;
+}
+
+.main .Box h3{
+    font-size: 20px;
+    color:  rgb(15, 180, 15);
+}
+
+.main .Box p{
+    font-size: 15px;
+    color: rgb(15, 180, 15);
+    opacity: 50%;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+/*
 .paragraph{
     padding-bottom: 60px;
     padding-right: 80px;
@@ -248,7 +337,7 @@
 
 
 .Search input{
-    /* padding-left: 40px; */
+    /* padding-left: 40px; 
     padding:20px ;
     height: 40px;
     border: none;
@@ -286,7 +375,7 @@
 /* .buttons{
     gap: 80px;
 
-} */
+} 
 
 .btn1{
     background-color: #fff;
@@ -316,7 +405,7 @@
     font-size: 13px;
   }
 
-  /* flowers */
+  /* flowers 
   .flowers{
     padding-top: 20px;
     display: flex;
@@ -538,7 +627,17 @@
     font-size: 10px ;
  }
 
-/* Third Section */
+/* Third Section 
+
+.Aside{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+     /* background-color: lightgray;  
+    background-color: #e0d5d54b; 
+}
  .icon{
     display:flex;
     gap:20px;
@@ -587,7 +686,7 @@
 /* .Section_orders{
     display: flex;
     gap: 20px;
-} */
+} 
 .Section_orders h1{
     font-size: 20px;
 }
@@ -729,4 +828,4 @@
 }
 .order-list5 p{
     font-size: 15px;
-}
+} */
