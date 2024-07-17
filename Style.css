@@ -105,7 +105,7 @@
 }
 
 .Smiley_2 h1{
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 10px;
 }
 
@@ -225,21 +225,47 @@
 
 /* SECTION 2 */
 .Section_2{
+    overflow: none;
+    padding-top: 10px;
     display: flex;
     min-width: 100%;
-    background-color: rgba(211, 211, 211, 0.418);
+    /* background-color: rgba(211, 211, 211, 0.418); */
 }
 
 .Section_2 .header{
     display: flex;
-    padding: 20px;
-    gap: 30px;
-
+    gap:300px;
 }
 
 .Section_2 .head_1{
+    justify-content: space-around;
+    /* padding-left: 20px; */
+
 
 }
 .Section_2 .head_1 h1{
-    font-size: 20px;
+    font-size: 10px;
+}
+
+.Section_2 .head_1 p{
+    font-size: 10px;
+}
+
+.Section_2 .search{
+    height: 45px; 
+    /* width: 250px; */
+    display: flex;
+    outline: none;
+    justify-self: center;
+ 
+} 
+.Section_2 .search input {
+    border: none;
+    padding: 20px;
+}
+.Section_2 .search input::placeholder{
+    font-size: 18px;
+    color: black;
+
+
 }
