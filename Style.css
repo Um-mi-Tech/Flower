@@ -227,7 +227,7 @@
 .Section_2{
     overflow: none;
     padding-top: 10px;
-    min-width: 100%;
+    min-width: 1300px;
     background-color: rgba(211, 211, 211, 0.418);
 }
 
@@ -291,6 +291,7 @@
 
  .Main_sections{
     padding: 20px;
+    margin-top: 20px;
 }
 
 .Main{
@@ -301,10 +302,35 @@
     background-image: url(Flower_pictures/Flower_pic1.jpg);
      /* opacity: 20%;  */
     width: 450px;
-    height: 150px;
+    height: 120px;
+    padding: 10px;
 
 }
 .Main_sections .Box h1{
-  font-size: 25px;
+  font-size: 20px;
   color: green;
+  padding-bottom: 5px;
 }
+.Main_sections .Box p{
+    font-size: 15px;
+    color: rgb(35, 146, 35);
+    padding-bottom: 10px;
+
+}
+.btns{
+    display: flex;
+    gap: 20px;
+}
+
+.btn1 button{
+   width: 120px;
+   height:40px ;
+   font-size: 15px;
+}
+.btn2 button{
+    width: 120px;
+    height:40px ;
+    font-size: 15px;
+    background: transparent;
+    color: #fff;
+ }
