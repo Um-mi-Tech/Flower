@@ -611,7 +611,7 @@
 
 .PPL-list2{
     display: flex;
-    gap: 170px;
+    gap: 180px;
     padding-top: 50px;
 }
 
@@ -638,7 +638,7 @@
  
 .PPL-list3{
     display: flex;
-    gap: 170px;
+    gap: 160px;
     padding-top: 50px;
 }
 
@@ -663,7 +663,7 @@
 
 .PPL-list4{
     display: flex;
-    gap: 170px;
+    gap: 155px;
     padding-top: 50px;
 }
 
@@ -689,7 +689,7 @@
  
 .PPL-list5{
     display: flex;
-    gap: 170px;
+    gap: 135px;
     padding-top: 50px;
 }
 
@@ -714,7 +714,7 @@
  
 .PPL-list6{
     display: flex;
-    gap: 170px;
+    gap: 110px;
     padding-top: 50px;
 }
 
