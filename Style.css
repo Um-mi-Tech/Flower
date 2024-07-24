@@ -16,7 +16,7 @@
     /* overflow: hidden; */
 }
 .First_page{
-    width: 40%;
+    max-width: 40%;
     min-height: 100vh;
     background-color: #fff;
 }
@@ -223,10 +223,10 @@
     margin-bottom: 15px;
 
  }
- .First_page.Box h1{
+ .First_page .Box h1{
     font-size: 15px;
     text-align: center;
-    padding-bottom: 20px;
+    margin-bottom: 15px;
  }
  .First_page .Box p{
     font-size: 12px;
@@ -568,7 +568,7 @@
     width: 450px;
     height: 160px;
     padding-left: 20px;
-    gap: 60px;
+    gap: 40px;
     display: flex;
 }
 .orders{
@@ -605,10 +605,9 @@
     /* display: inline-block; */
 }
 .order-img img{
-    width: 70px;
-    height: 100px;
+    width: 150px;
+    height: 120px;
     margin-top: 20px;
-    background-color: rgba(64, 148, 64, 0.699);
 
 }
 
@@ -620,7 +619,7 @@
     display: flex;
     gap: 210px;
     padding-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 
 }
 .PPL-header h1{
@@ -687,7 +686,7 @@
 .PPL-list3{
     display: flex;
     gap: 160px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .PPL-image2{
@@ -712,7 +711,7 @@
 .PPL-list4{
     display: flex;
     gap: 155px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .PPL-image3{
@@ -738,7 +737,7 @@
 .PPL-list5{
     display: flex;
     gap: 135px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .PPL-image4{
@@ -763,7 +762,7 @@
 .PPL-list6{
     display: flex;
     gap: 110px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .PPL-image5{
