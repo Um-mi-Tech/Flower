@@ -15,7 +15,7 @@
     background-size: cover;
     /* overflow: hidden; */
 }
-.Section_1{
+.First_page{
     width: 40%;
     min-height: 100vh;
     background-color: #fff;
@@ -46,10 +46,12 @@
 .LST_1 i{
     font-size: 18px;
 }
-.LST_1 h1{
+.LST_1 a{
     font-weight: 800;
     font-size: 13px;
     padding-top: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 .LST_2{
@@ -60,10 +62,12 @@
 .LST_2 i{
     font-size: 18px;
 }
-.LST_2 h1{
+.LST_2 a{
     font-weight: 800;
     font-size: 13px;
     padding-top: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 .LST_3{
@@ -75,10 +79,12 @@
     font-size: 18px;
 
 }
-.LST_3 h1{
+.LST_3 a{
     font-weight: 800;
     font-size: 13px;
     padding-top: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 .LST_4{
@@ -89,10 +95,12 @@
 .LST_4 i{
     font-size: 18px;
 }
-.LST_4 h1{
+.LST_4 a{
     font-weight: 800;
     font-size: 13px;
     padding-top: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -117,10 +125,12 @@
 .LST_11 i{
     font-size: 18px;
 }
-.LST_11 h1{
+.LST_11 a{
     font-weight: 800;
     font-size: 13px;
     padding-top: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 .LST_12{
@@ -131,10 +141,12 @@
 .LST_12 i{
     font-size: 18px;
 }
-.LST_12 h1{
+.LST_12 a{
     font-weight: 800;
     font-size: 13px;
     padding-top: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 .LST_13{
@@ -146,10 +158,12 @@
     font-size: 18px;
 
 }
-.LST_13 h1{
+.LST_13 a{
     font-weight: 800;
     font-size: 13px;
     padding-top: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 .LST_14{
@@ -160,10 +174,13 @@
 .LST_14 i{
     font-size: 18px;
 }
-.LST_14 h1{
+.LST_14 a{
     font-weight: 800;
     font-size: 13px;
     padding-top: 5px;
+    text-decoration: none;
+    color: black;
+
 }
 
 .LST_15{
@@ -174,15 +191,20 @@
 .LST_15 i{
     font-size: 18px;
 }
-.LST_15 h1{
+.LST_15 a{
     font-weight: 800;
     font-size: 13px;
     padding-top: 5px;
     padding-bottom: 40px;
+    text-decoration: none;
+    color: black;
 }
 
+
+  
+
  /* FIRST SECTION BOX */
- .Section_1 .Box{
+ .First_page .Box{
     margin-left: 10px;
     align-items: center;
     width: 130px;
@@ -190,7 +212,7 @@
     background-color: rgb(49, 175, 70);
 
  }
- .Section_1 .Box i{
+ .First_page .Box i{
     background-color: #fff;  
     padding: 10px;
     border-radius: 50%;
@@ -201,19 +223,19 @@
     margin-bottom: 15px;
 
  }
- .Section_1 .Box h1{
+ .First_page.Box h1{
     font-size: 15px;
     text-align: center;
     padding-bottom: 20px;
  }
- .Section_1 .Box p{
+ .First_page .Box p{
     font-size: 12px;
     text-align: center;
     padding-bottom: 20px;
 
 
  }
-.Section_1 .Box button{
+.First_page .Box button{
     background-color: #fff;
     height: 30px;
     width: 110px;
@@ -224,7 +246,7 @@
 }
 
 /* SECTION 2 */
-.Section_2{
+.Second_page{
     overflow: none;
     padding-top: 10px;
     max-width: 1300px;
@@ -232,57 +254,57 @@
 }
   
     /* SECOND SECTION HEADER */
-.Section_2 .header{
+.Second_page .header{
     display: flex;
-    gap:400px;
+    gap:350px;
 }
 
-.Section_2 .head_1{
+.Second_page .head_1{
     justify-content: space-around;
     padding-left: 20px;
 
 
 }
-.Section_2 .head_1 h1{
+.Second_page .head_1 h1{
     font-size: 10px;
 }
 
-.Section_2 .head_1 p{
+.Second_page .head_1 p{
     font-size: 10px;
 }
 
-.Section_2 .search{
+.Second_page .search{
     height: 45px; 
     width: 250px;
     display: flex;
     justify-self: center;
  
 } 
-.Section_2 .search input {
+.Second_page .search input {
     border: none;
     padding: 20px;
     outline: none;
 }
-.Section_2 .search input::placeholder{
+.Second_page .search input::placeholder{
     font-size: 18px;
     color: black;
 
 
 }
 
-.Section_2 .logos{
+.Second_page .logos{
     display: flex;
-    gap: 10px;
-    /* padding: 10px; */
+    gap: 12px;
+    padding-right :20px;
 }
-.Section_2 .logos i{
+.Second_page .logos i{
     border: #fff;
     padding: 10px 10px ;
     height: 42px;
     /* width: 45px; */
-    background-color: aliceblue;
+    background-color: #fff;
 }
-.Section_2 .logos img{
+.Second_page .logos img{
     border-radius: 5px;
     height: 45px;
     width: 45px;
@@ -360,39 +382,63 @@
     gap: 50px;
     
  }
- .flower1 img{
+ .flower1{
     width: 170px;
     height: 220px;
     background-color: #fff;
+    border: none;
+
+    
+ }
+ .flower1 img{
+    width: 150px;
+    height: 180px;
+    
+ }
+ .flower1 h3{
+    font-size: 20px;
+    text-align: center;
  }
 
- .flower1 h1{
-    font-size: 20px;
-    padding-left: 30px;
+
+ .flower2{
+    width: 170px;
+    height: 220px;
+    background-color: #fff;
+    border: none;   
  }
 
  .flower2 img{
+    width: 150px;
+    height: 180px;
+ }
+
+ .flower2 h3{
+    font-size: 20px;
+    text-align: center;
+ }
+
+ .flower3{
     width: 170px;
     height: 220px;
     background-color: #fff;
- }
+    border: none;
 
- .flower2 h1{
-    font-size: 20px;
-    padding-left: 30px;
-
+    
  }
 
  .flower3 img{
-    width: 170px;
-    height: 220px;
+    width: 150px;
+    height: 180px;
+    background-color: #fff;
+
+
 
  }
 
- .flower3 h1{
+ .flower3 h3{
     font-size: 20px;
-    padding-left: 30px;
-
+    text-align: center;
  }
 
 
@@ -450,10 +496,10 @@
   }
 
  .seller_likes h1{
-     font-size: 15px;
+     font-size: 12px;
  }
  .seller_likes h2{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 
@@ -462,7 +508,7 @@
 
  .seller_2 .header{
     display: flex;
-    gap: 140px;
+    gap: 100px;
  }
 
  .seller_2 .header h1{
@@ -505,24 +551,24 @@
   }
 
  .seller_likes_2 h1{
-    font-size: 15px;
+    font-size: 12px;
 }
 .seller_likes_2 h2{
-   font-size: 12px;
+   font-size: 10px;
 }
 
 
 /* SECOND SECTION ASIDE */
 
-.Aside{
+.Next{
 }
 
-.Aside .box{
+.Next .box{
     background-color: rgba(64, 148, 64, 0.699);
-    width: 400px;
+    width: 450px;
     height: 160px;
     padding-left: 20px;
-    gap: 20px;
+    gap: 60px;
     display: flex;
 }
 .orders{
@@ -532,7 +578,7 @@
 }
 
 .orders h1{
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom: 20px;
 }
 
@@ -541,7 +587,7 @@
 }
 
 .orders h3{
-    font-size: 20px;
+    font-size: 15px;
 }
 .orders h4{
     font-size: 20px;
@@ -559,9 +605,11 @@
     /* display: inline-block; */
 }
 .order-img img{
-    width: 80px;
-    height: 120px;
+    width: 70px;
+    height: 100px;
     margin-top: 20px;
+    background-color: rgba(64, 148, 64, 0.699);
+
 }
 
 .PPL-order{
