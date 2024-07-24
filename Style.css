@@ -16,7 +16,7 @@
     /* overflow: hidden; */
 }
 .First_page{
-    max-width: 40%;
+    width: 40%;
     min-height: 100vh;
     background-color: #fff;
 }
@@ -659,7 +659,7 @@
 .PPL-list2{
     display: flex;
     gap: 180px;
-    padding-top: 50px;
+    padding-top: 35px;
 }
 
 .PPL-image1{
@@ -686,7 +686,7 @@
 .PPL-list3{
     display: flex;
     gap: 160px;
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 .PPL-image2{
@@ -711,7 +711,7 @@
 .PPL-list4{
     display: flex;
     gap: 155px;
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 .PPL-image3{
@@ -737,7 +737,7 @@
 .PPL-list5{
     display: flex;
     gap: 135px;
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 .PPL-image4{
@@ -762,7 +762,7 @@
 .PPL-list6{
     display: flex;
     gap: 110px;
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 .PPL-image5{
