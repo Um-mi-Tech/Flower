@@ -22,8 +22,8 @@
 
 
 .First_page{
-    width:400px;
-    /* width: 100%; */
+    width:380px ;
+    /* min-width: 100%; */
     min-height: 100vh;
     font-family: "Roboto", sans-serif;
     background-color: #fff;
@@ -39,7 +39,7 @@
 
 }
 .Smiley_1 i{
-    font-size: 35px;
+    font-size: 45px;
     color: green;
 }
 .Smiley_1 h1{
@@ -57,9 +57,9 @@
     font-size: 18px;
 }
 .LST_1 a{
-    font-weight: 800;
-    font-size: 13px;
-    padding-top: 5px;
+    font-weight: 600;
+    font-size:20px;
+    padding-top: 3px;
     text-decoration: none;
     color: black;
     font-family: "Roboto", sans-serif;
@@ -75,9 +75,9 @@
     font-size: 18px;
 }
 .LST_2 a{
-    font-weight: 800;
-    font-size: 13px;
-    padding-top: 5px;
+    font-weight: 600;
+    font-size:20px;
+    padding-top: 3px;
     text-decoration: none;
     color: black;
 }
@@ -92,9 +92,9 @@
 
 }
 .LST_3 a{
-    font-weight: 800;
-    font-size: 13px;
-    padding-top: 5px;
+    font-weight: 600;
+    font-size:20px;
+    padding-top: 3px;
     text-decoration: none;
     color: black;
 }
@@ -108,9 +108,9 @@
     font-size: 18px;
 }
 .LST_4 a{
-    font-weight: 800;
-    font-size: 13px;
-    padding-top: 5px;
+    font-weight: 600;
+    font-size:20px;
+    padding-top: 3px;
     text-decoration: none;
     color: black;
 }
@@ -138,9 +138,9 @@
     font-size: 18px;
 }
 .LST_11 a{
-    font-weight: 800;
-    font-size: 13px;
-    padding-top: 5px;
+    font-weight: 600;
+    font-size:20px;
+    padding-top: 3px;
     text-decoration: none;
     color: black;
 }
@@ -154,8 +154,8 @@
     font-size: 18px;
 }
 .LST_12 a{
-    font-weight: 800;
-    font-size: 13px;
+    font-weight: 600;
+    font-size:20px;
     padding-top: 5px;
     text-decoration: none;
     color: black;
@@ -171,9 +171,9 @@
 
 }
 .LST_13 a{
-    font-weight: 800;
-    font-size: 13px;
-    padding-top: 5px;
+    font-weight: 600;
+    font-size:20px;
+    padding-top: 3px;
     text-decoration: none;
     color: black;
 }
@@ -187,9 +187,9 @@
     font-size: 18px;
 }
 .LST_14 a{
-    font-weight: 800;
-    font-size: 13px;
-    padding-top: 5px;
+    font-weight: 600;
+    font-size:20px;
+    padding-top: 3px;
     text-decoration: none;
     color: black;
 
@@ -204,8 +204,8 @@
     font-size: 18px;
 }
 .LST_15 a{
-    font-weight: 800;
-    font-size: 13px;
+    font-weight: 600;
+    font-size:20px;
     padding-top: 5px;
     padding-bottom: 40px;
     text-decoration: none;
@@ -217,7 +217,8 @@
 
  /* FIRST SECTION BOX */
  .First_page .Box{
-    margin-left: 10px;
+
+    margin-left: 50px;
     align-items: center;
     width: 130px;
     height: 180px;
@@ -257,9 +258,9 @@
 
 }
 
+
 /* SECTION 2 */
 .Second_page{
-    overflow: none;
     padding-top: 10px;
     width: 1500px;
     background-color: rgba(211, 211, 211, 0.418);
