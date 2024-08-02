@@ -21,8 +21,8 @@
 }
 
 
-.First_page{
-    width:380px ;
+aside{
+    width:390px ;
     /* min-width: 100%; */
     min-height: 100vh;
     font-family: "Roboto", sans-serif;
@@ -216,7 +216,7 @@
   
 
  /* FIRST SECTION BOX */
- .First_page .Box{
+aside .Box{
 
     margin-left: 20px;
     align-items: center;
@@ -225,7 +225,7 @@
     background-color: rgb(49, 175, 70);
 
  }
- .First_page .Box i{
+aside .Box i{
     background-color: #fff;  
     padding: 10px;
     border-radius: 50%;
@@ -236,19 +236,19 @@
     margin-bottom: 15px;
 
  }
- .First_page .Box h1{
+aside .Box h1{
     font-size: 15px;
     text-align: center;
     margin-bottom: 15px;
  }
- .First_page .Box p{
+ aside .Box p{
     font-size: 12px;
     text-align: center;
     padding-bottom: 20px;
 
 
  }
-.First_page .Box button{
+aside .Box button{
     background-color: #fff;
     height: 30px;
     width: 110px;
@@ -260,64 +260,65 @@
 
 
 /* SECTION 2 */
-.Second_page{
+main{
+    padding-left: 50px;
     padding-top: 10px;
     width: 1500px;
     background-color: rgba(211, 211, 211, 0.418);
 }
   
     /* SECOND SECTION HEADER */
-.Second_page .header{
+main .header{
     display: flex;
     gap:350px;
 }
 
-.Second_page .head_1{
+main .head_1{
     justify-content: space-around;
     padding-left: 20px;
 
 
 }
-.Second_page .head_1 h1{
+main .head_1 h1{
     font-size: 10px;
 }
 
-.Second_page .head_1 p{
+main .head_1 p{
     font-size: 10px;
 }
 
-.Second_page .search{
+main .search{
     height: 45px; 
     width: 250px;
     display: flex;
     justify-self: center;
  
 } 
-.Second_page .search input {
+main .search input {
     border: none;
     padding: 20px;
     outline: none;
 }
-.Second_page .search input::placeholder{
+main .search input::placeholder{
     font-size: 18px;
     color: black;
 
 
 }
 
-.Second_page .logos{
+main .logos{
     display: flex;
     gap: 12px;
     padding-right :20px;
 }
-.Second_page .logos i{
+main .logos i{
     border: #fff;
     padding: 10px 10px ;
     height: 42px;
     /* width: 45px; */
     background-color: #fff;
 }
-.Second_page .logos img{
+main .logos img{
     border-radius: 5px;
     height: 45px;
     width: 45px;
@@ -325,34 +326,34 @@
 
 /* Main section  */
 
- .Main_sections{
+ .main_sections{
     padding: 20px;
     margin-top: 20px;
     display: flex;
-    gap: 40px;
+    gap: 60px;
 }
 
 .Main{
 
 }
 
-.Main .Box{
+.section_1 .Box{
     background-image: url(Flower_pictures/Flower_pic1.jpg);
      /* opacity: 20%;  */
-    width: 700px;
+    width: 800px;
     height: 190px;
     padding: 10px;
 
 }
-.Main .Box h1{
-  font-size: 20px;
+.section_1 .Box h1{
+  font-size: 25px;
   color: green;
   padding-bottom: 5px;
 }
-.Main .Box p{
-    font-size: 15px;
+.section_1 .Box p{
+    font-size: 20px;
     color: rgb(35, 146, 35);
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 
 }
 .btns{
@@ -397,7 +398,7 @@
     
  }
  .flower1{
-    width: 200px;
+    width: 230px;
     height: 250px;
     background-color: #fff;
     border: none;
@@ -417,7 +418,7 @@
 
 
  .flower2{
-    width: 200px;
+    width: 230px;
     height: 250px;
     background-color: #fff;
     border: none;   
@@ -435,7 +436,7 @@
  }
 
  .flower3{
-    width: 200px;
+    width: 230px;
     height: 250px;;
     background-color: #fff;
     border: none;
@@ -484,7 +485,7 @@
  
  .seller_box1{
     border: 20px;
-    width: 330px;
+    width: 380px;
     height: 90px;
     background-color:#fff;
     display:flex;
@@ -538,7 +539,7 @@
  
  .seller_box2{
     border: 20px;
-    width: 330px;
+    width: 380px;
     height: 90px;
     background-color: #fff;
     display:flex;
@@ -574,12 +575,11 @@
 }
 
 
-/* SECOND SECTION ASIDE */
-
-.Next{
+/* Section_2 */
+.section_2 {
 }
 
-.Next .box{
+.section_2 .box{
     background-color: rgba(64, 148, 64, 0.699);
     width: 450px;
     height: 200px;
@@ -798,6 +798,7 @@
     font-size: 10px;
     padding-left: 40px;
 }
+
 
 
 
