@@ -22,7 +22,7 @@
 
 
 aside{
-    width:305px ;
+    width:310px ;
     /* min-width: 100%; */
     min-height: 100vh;
     font-family: "Roboto", sans-serif;
@@ -270,7 +270,7 @@ main{
     /* SECOND SECTION HEADER */
 main .header{
     display: flex;
-    gap:350px;
+    gap:400px;
 }
 
 main .head_1{
@@ -340,7 +340,7 @@ main .logos img{
 .section_1 .Box{
     background-image: url(Flower_pictures/Flower_pic1.jpg);
      /* opacity: 20%;  */
-    width: 800px;
+    width: 850px;
     height: 190px;
     padding: 10px;
 
@@ -398,7 +398,7 @@ main .logos img{
     
  }
  .flower1{
-    width: 230px;
+    width: 246px;
     height: 250px;
     background-color: #fff;
     border: none;
@@ -406,9 +406,9 @@ main .logos img{
     
  }
  .flower1 img{
-    margin-left: 20px;
-    width: 150px;
-    height: 180px;
+    margin-left: 30px;
+    width: 180px;
+    height: 190px;
     
  }
  .flower1 h3{
@@ -418,16 +418,16 @@ main .logos img{
 
 
  .flower2{
-    width: 230px;
+    width: 246px;
     height: 250px;
     background-color: #fff;
     border: none;   
  }
 
  .flower2 img{
-    margin-left: 20px;
-    width: 150px;
-    height: 180px;
+    margin-left: 30px;
+    width: 180px;
+    height: 190px;
  }
 
  .flower2 h3{
@@ -436,7 +436,7 @@ main .logos img{
  }
 
  .flower3{
-    width: 230px;
+    width: 246px;
     height: 250px;;
     background-color: #fff;
     border: none;
@@ -445,9 +445,9 @@ main .logos img{
  }
 
  .flower3 img{
-    margin-left: 20px;
-    width: 150px;
-    height: 180px;
+    margin-left: 30px;
+    width: 180px;
+    height: 190px;
 
 
 
@@ -464,14 +464,14 @@ main .logos img{
 
  .sellers{
     display: flex;
-    gap: 40px;
+    gap: 50px;
     margin-top: 100px;
  }
 
   /* FIRST SELLER */
  .seller_1 .header{
     display: flex;
-    gap: 150px;
+    gap: 250px;
  }
 
  .seller_1 .header h1{
@@ -485,7 +485,7 @@ main .logos img{
  
  .seller_box1{
     border: 20px;
-    width: 380px;
+    width: 390px;
     height: 90px;
     background-color:#fff;
     display:flex;
@@ -525,7 +525,7 @@ main .logos img{
 
  .seller_2 .header{
     display: flex;
-    gap: 100px;
+    gap: 200px;
  }
 
  .seller_2 .header h1{
@@ -539,7 +539,7 @@ main .logos img{
  
  .seller_box2{
     border: 20px;
-    width: 380px;
+    width: 390px;
     height: 90px;
     background-color: #fff;
     display:flex;
