@@ -22,8 +22,8 @@
 
 
 aside{
-    min-width:40%;
-    width: 100%; 
+    width:310px ;
+    /* min-width: 100%; */
     min-height: 100vh;
     font-family: "Roboto", sans-serif;
     background-color: #fff;
@@ -263,8 +263,7 @@ aside .Box button{
 main{
     padding-left: 50px;
     padding-top: 10px;
-    /* width: 100%; */
-    /* width: 60%; */
+    width: 1570px;
     background-color: rgba(211, 211, 211, 0.418);
 }
   
@@ -333,8 +332,8 @@ main .logos img{
     display: flex;
     gap: 60px;
 }
-/* 
-.Main{
+
+/* .Main{
 
 } */
 
