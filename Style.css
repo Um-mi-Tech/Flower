@@ -22,7 +22,7 @@
 
 
 aside{
-    max-width:40%;
+    min-width:40%;
     width: 100%; 
     min-height: 100vh;
     font-family: "Roboto", sans-serif;
